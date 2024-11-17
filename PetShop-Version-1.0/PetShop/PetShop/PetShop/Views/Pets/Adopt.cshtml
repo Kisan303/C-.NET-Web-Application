@@ -1,0 +1,41 @@
+@model PetShop.Models.Pet
+
+@{
+    ViewBag.Title = "Adopt Pet";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">@ViewBag.Title</h2>
+
+    <div class="card mt-4">
+        <div class="card-body">
+            <h3 class="card-title">@Model.Name</h3>
+
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold">Pet ID:</dt>
+                <dd class="col-sm-9">@Model.ID</dd>
+
+                <dt class="col-sm-3 font-weight-bold">Breed:</dt>
+                <dd class="col-sm-9">@Model.Breed</dd>
+
+                <dt class="col-sm-3 font-weight-bold">Gender:</dt>
+                <dd class="col-sm-9">@(Model.isMale ? "Male" : "Female")</dd>
+
+                <dt class="col-sm-3 font-weight-bold">Owner:</dt>
+                <dd class="col-sm-9">@Model.Owner?.UserName ?? "No Owner"</dd>
+            </dl>
+
+            <div class="d-flex justify-content-start mt-4">
+                @using (Html.BeginForm("Adopt", "Pets", FormMethod.Post, new { id = "adoptForm" }))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.Hidden("id", Model.ID) <!-- Hidden field for the pet ID -->
+
+                    <button type="submit" class="btn btn-success mr-3">Confirm Adoption</button>
+                }
+
+                @Html.ActionLink("Back to Pet List", "Index", "Pets", null, new { @class = "btn btn-secondary" })
+            </div>
+        </div>
+    </div>
+</div>

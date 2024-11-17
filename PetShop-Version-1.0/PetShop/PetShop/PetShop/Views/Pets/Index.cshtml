@@ -1,0 +1,55 @@
+﻿@model IEnumerable<PetShop.Models.Pet>
+
+@{
+    ViewBag.Title = "Pets Index";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center">@ViewBag.Title</h2>
+
+    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+    {
+        <div class="text-right mb-3">
+            @Html.ActionLink("Create New Pet", "Create", null, new { @class = "btn btn-success" })
+        </div>
+    }
+
+    <table class="table table-striped table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.ID)</th>
+                <th>@Html.DisplayNameFor(model => model.Name)</th>
+                <th>@Html.DisplayNameFor(model => model.isMale)</th>
+                <th>@Html.DisplayNameFor(model => model.Breed)</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.Name</td>
+                <td>@(item.isMale ? "Male" : "Female")</td>
+                <td>@item.Breed</td>
+                <td class="text-center">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a href="@Url.Action("Adopt", "Pets", new { id = item.ID })" class="btn btn-primary btn-sm">Adopt</a>
+                    }
+                    
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a href="@Url.Action("Edit", "Pets", new { id = item.ID })" class="btn btn-warning btn-sm mx-1">Edit</a>
+                        <a href="@Url.Action("Delete", "Pets", new { id = item.ID })" class="btn btn-danger btn-sm">Delete</a>
+                    }
+                    
+                    <a href="@Url.Action("Details", "Pets", new { id = item.ID })" class="btn btn-info btn-sm mx-1">Details</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+    @Html.ActionLink("Back to Home", "Index", "Home", null, new { @class = "btn btn-secondary mt-3" })
+</div>

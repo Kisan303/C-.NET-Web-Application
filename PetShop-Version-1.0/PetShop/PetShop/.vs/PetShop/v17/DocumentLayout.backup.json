@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|c:\\.net assingment\\assignment01\\petshop\\petshop\\petshop\\models\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\models\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\views\\pets\\adopt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\views\\pets\\adopt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\views\\pets\\mypets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\views\\pets\\mypets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\views\\pets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\views\\pets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\migrations\\202409190028263_addowneridtopet1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\migrations\\202409190028263_addowneridtopet1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\petshop\\migrations\\202409200423470_updateallmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EC6D7AF-5182-4DA8-B9F6-258A3E3A0881}|PetShop\\PetShop.csproj|solutionrelative:petshop\\migrations\\202409200423470_updateallmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "PetShop\\Controllers\\ManageController.cs",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "PetShop\\Controllers\\ManageController.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T04:30:07.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PetShop\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PetShop\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T04:30:02.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pet.cs",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Models\\Pet.cs",
+              "RelativeDocumentMoniker": "PetShop\\Models\\Pet.cs",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Models\\Pet.cs",
+              "RelativeToolTip": "PetShop\\Models\\Pet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T04:19:40.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IdentityModels.cs",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Models\\IdentityModels.cs",
+              "RelativeDocumentMoniker": "PetShop\\Models\\IdentityModels.cs",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Models\\IdentityModels.cs",
+              "RelativeToolTip": "PetShop\\Models\\IdentityModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T04:19:22.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Adopt.cshtml",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Views\\Pets\\Adopt.cshtml",
+              "RelativeDocumentMoniker": "PetShop\\Views\\Pets\\Adopt.cshtml",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Views\\Pets\\Adopt.cshtml",
+              "RelativeToolTip": "PetShop\\Views\\Pets\\Adopt.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T03:31:52.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataInitializer.cs",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Models\\DataInitializer.cs",
+              "RelativeDocumentMoniker": "PetShop\\Models\\DataInitializer.cs",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Models\\DataInitializer.cs",
+              "RelativeToolTip": "PetShop\\Models\\DataInitializer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T04:12:37.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PetsController.cs",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Controllers\\PetsController.cs",
+              "RelativeDocumentMoniker": "PetShop\\Controllers\\PetsController.cs",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Controllers\\PetsController.cs",
+              "RelativeToolTip": "PetShop\\Controllers\\PetsController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T03:26:31.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "202409190028263_AddOwnerIdToPet1.cs",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Migrations\\202409190028263_AddOwnerIdToPet1.cs",
+              "RelativeDocumentMoniker": "PetShop\\Migrations\\202409190028263_AddOwnerIdToPet1.cs",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Migrations\\202409190028263_AddOwnerIdToPet1.cs",
+              "RelativeToolTip": "PetShop\\Migrations\\202409190028263_AddOwnerIdToPet1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T04:31:51.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Views\\Pets\\Create.cshtml",
+              "RelativeDocumentMoniker": "PetShop\\Views\\Pets\\Create.cshtml",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Views\\Pets\\Create.cshtml",
+              "RelativeToolTip": "PetShop\\Views\\Pets\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T04:46:36.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MyPets.cshtml",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Views\\Pets\\MyPets.cshtml",
+              "RelativeDocumentMoniker": "PetShop\\Views\\Pets\\MyPets.cshtml",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Views\\Pets\\MyPets.cshtml",
+              "RelativeToolTip": "PetShop\\Views\\Pets\\MyPets.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T04:46:40.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Views\\Pets\\Index.cshtml",
+              "RelativeDocumentMoniker": "PetShop\\Views\\Pets\\Index.cshtml",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Views\\Pets\\Index.cshtml",
+              "RelativeToolTip": "PetShop\\Views\\Pets\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwCYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T04:32:26.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "202409200423470_UpdateAllModels.cs",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Migrations\\202409200423470_UpdateAllModels.cs",
+              "RelativeDocumentMoniker": "PetShop\\Migrations\\202409200423470_UpdateAllModels.cs",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Migrations\\202409200423470_UpdateAllModels.cs",
+              "RelativeToolTip": "PetShop\\Migrations\\202409200423470_UpdateAllModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T04:23:53.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Models\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "PetShop\\Models\\AccountViewModels.cs",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Models\\AccountViewModels.cs",
+              "RelativeToolTip": "PetShop\\Models\\AccountViewModels.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T04:11:57.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageViewModels.cs",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Models\\ManageViewModels.cs",
+              "RelativeDocumentMoniker": "PetShop\\Models\\ManageViewModels.cs",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Models\\ManageViewModels.cs",
+              "RelativeToolTip": "PetShop\\Models\\ManageViewModels.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T04:19:39.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PetShop\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\.NET Assingment\\Assignment01\\PetShop\\PetShop\\PetShop\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PetShop\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAANQBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T03:23:52.784Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
