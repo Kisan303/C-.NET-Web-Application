@@ -1,0 +1,32 @@
+﻿@model IEnumerable<PetShop.Models.Pet>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pet in Model)
+            {
+                <tr>
+                    <td>@pet.ID</td>
+                    <td>@pet.Name</td>
+                    <td>@(pet.isMale ? "Male" : "Female")</td>
+                    <td>
+                        <a href="@Url.Action("Details", "Pets", new { id = pet.ID })" class="btn btn-info btn-sm">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No pets available for this breed.</p>
+}
