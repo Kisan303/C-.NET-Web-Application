@@ -1,0 +1,63 @@
+﻿@model PetShop.Models.ViewModel.CreatePetViewModel
+
+@{
+    ViewBag.Title = "Create Pet";
+}
+
+<h2>Create Pet</h2>
+
+@* Include the new petsbundles JavaScript bundle *@
+@Scripts.Render("~/bundles/petsbundles")
+
+@using (Ajax.BeginForm("Create", "Pets", new AjaxOptions
+{
+    OnSuccess = "RequestSuccessful", // Call the success callback
+    OnFailure = "RequestFailed", // Call the failure callback
+    HttpMethod = "POST"
+}, new { @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Pet</h4>
+        <hr />
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Name)
+            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Name)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Age)
+            @Html.TextBoxFor(m => m.Age, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Age)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Breed, "Select Breed")
+            @Html.DropDownListFor(m => m.Breed, Model.DropDownBreed, "Select a Breed", new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Breed)
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Gender")
+            <div>
+                @Html.RadioButtonFor(m => m.isMale, true) Male
+                @Html.RadioButtonFor(m => m.isMale, false) Female
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Is Fixed?")
+            <div>
+                @Html.RadioButtonFor(m => m.isFixed, true) Yes
+                @Html.RadioButtonFor(m => m.isFixed, false) No
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </div>
+}

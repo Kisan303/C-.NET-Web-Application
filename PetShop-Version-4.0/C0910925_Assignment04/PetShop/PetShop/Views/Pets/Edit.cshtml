@@ -1,0 +1,65 @@
+﻿@model PetShop.Models.ViewModel.EditPetViewModel
+
+@{
+    ViewBag.Title = "Edit Pet";
+}
+
+<h2>Edit Pet</h2>
+
+@* Include the new petsbundles JavaScript bundle *@
+@Scripts.Render("~/bundles/petsbundles")
+
+@using (Ajax.BeginForm("Edit", "Pets", new AjaxOptions
+{
+    OnSuccess = "RequestSuccessful", // Success callback
+    OnFailure = "RequestFailed", // Failure callback
+    HttpMethod = "POST"
+}, new { @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Pet</h4>
+        <hr />
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Breed, "Breed", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Breed, Model.DropDownBreed, "Select Breed", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Breed, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("isMale", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <label>@Html.RadioButtonFor(model => model.isMale, true) Male</label>
+                <label>@Html.RadioButtonFor(model => model.isMale, false) Female</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("isFixed", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <label>@Html.RadioButtonFor(model => model.isFixed, true) Yes</label>
+                <label>@Html.RadioButtonFor(model => model.isFixed, false) No</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
